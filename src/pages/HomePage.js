@@ -8,7 +8,12 @@ const Homepage = () => {
   const navigate = useNavigate();
   return (
     <>
-      <Box sx={{ display: "flex", flexDirection: "row" }}>
+      <Box
+        display="flex"
+        justifyContent="center"
+        flexWrap="wrap"
+        sx={{ display: "flex", flexDirection: "row" }}
+      >
         <Box p={2}>
           <Typography variant="h4" mb={2} fontWeight="bold">
             Text Generation

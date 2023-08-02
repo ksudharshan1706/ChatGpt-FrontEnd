@@ -97,6 +97,7 @@ const ScifiImage = () => {
             borderRadius: 5,
             borderColor: "natural.medium",
             bgcolor: "background.default",
+            // objectFit: "cover",
           }}
         >
           <Box sx={{ display: "flex", justifyContent: "center", my: 5 }}>

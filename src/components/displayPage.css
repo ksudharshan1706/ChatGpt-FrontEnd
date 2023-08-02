@@ -1,0 +1,134 @@
+
+.introduction-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .author-section {
+    display: flex;
+    margin-top: 40px;
+  }
+  
+  .author-image-container {
+    max-width: 150px;
+    margin-right: 20px;
+  }
+  
+  .author-image {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .author-details {
+    flex: 1;
+  }
+  
+  .author-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .author-details p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .introduction-container {
+      padding: 10px;
+    }
+  
+    .author-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .author-image-container {
+      margin-bottom: 20px;
+      object-fit: cover;
+    }
+  }
+  
+
+.features-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .feature {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  
+  .feature-image-container {
+    max-width: 150px;
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+  
+  .feature-image {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-description {
+    flex: 1;
+  }
+  
+  .feature-description h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-description p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  @media (max-width: 768px) {
+    .features-container {
+      padding: 10px;
+    }
+  
+    .feature {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .feature-image-container {
+      margin-bottom: 20px;
+    }
+  }
+  
+.image-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}

@@ -28,9 +28,11 @@ const Navbar = () => {
       textAlign={"center"}
       sx={{ boxShadow: 3, mb: 2 }}
     >
-      <Typography variant="h1" color="primary" fontWeight="bold">
-        AI GPT3 Clone
-      </Typography>
+      <NavLink to="/about" p={1}>
+        <Typography variant="h1" color="" fontWeight="bold">
+          AI GPT3 Clone
+        </Typography>
+      </NavLink>
       {loggedIn ? (
         <>
           <NavLink to="/" p={1}>

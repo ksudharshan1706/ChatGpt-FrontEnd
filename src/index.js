@@ -7,7 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // axios.defaults.baseURL = "http://localhost:8080/";
-axios.defaults.baseURL = "https://chatgptbackend-80lh.onrender.com/";
+axios.defaults.baseURL = "https://chatgptbackendmain.onrender.com";
 root.render(
   <BrowserRouter>
     <React.StrictMode>
